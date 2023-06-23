@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reciclagem | Projeto 2</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="reciclagem.png">
+  </head>
+<body>
+
+  <h1>Horário de Coleta de lixo em Cornélio Procópio</h1>
+
+  <form onsubmit="event.preventDefault();">
+  <label for="bairro">Consulta por bairro</label>
+  <input type="text" id="bairro" placeholder="Escreva o Bairro">
+  <button type="submit" onclick="exibirHorarios(event)">Buscar Bairro</button>
+  <div id="resultado"></div>
+</form>
+
+
+  <h1>Cadastro de Dicas</h1>
+
+  <form id="dicaForm" class="">
+    <label for="materiais">Material:</label>
+    <select name="materiais" id="materiais">
+      <option value="">Selecione o material da dica que será escrita.</option>
+      <option value="Plastico">Plastico</option>
+      <option value="Metal">Metal</option>
+      <option value="Papel">Papel</option>
+      <option value="Vidro">Vidro</option>
+      <option value="Organico">Organico</option>
+    </select>
+    
+    <label for="dicas">Dica:</label>
+    <input type="text" id="dicas" placeholder="Escreva sua dica aqui..." required>
+
+    <button type="submit">Cadastrar Dica</button>
+  </form>
+  <form id="filtro">
+    <label for="filter">Filtro:</label>
+    <input type="text" id="filter" placeholder="Escreva o material aqui..." required>
+    <button type="submit">Filtrar</button>
+  </form>
+
+  <ul class="cards" id="tipsList"></ul>
+
+  <script src="script.js"></script>
+</html>

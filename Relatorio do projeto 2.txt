@@ -1,0 +1,7 @@
+Relatorio do projeto 2 para disciplina de programação web front-end.
+Aluno: Sérgio Vitor Cavalcanti Trevisan. 
+
+Tendo em vista que estou sozinho no grupo, acabei por fazer o projeto inteiro. Bom, pelo menos o que consegui fazer. 
+Tive algumas dificuldades em mostrar os horarios da coleta de lixo. Conversei com alguns amigos mas me recomendavam usar o Hashmap. Não sabia se era permitido então levei mais tempo para conseguir fazer a busca por vetor. Mesmo no hashmap ele nao aparecia na tela de jeito algum (risos de desespero).Mas no fim consegui. 
+Ficou faltando apenas o filtro e a troca de cor das dicas (acredito que esse seja mais ou menos igual a validação dos onibus) esses nao consegui. A troca de cor até funcionou um pouco, mas trocava no seletor e não nas dicas. Mas enfim, de resto está tudo ai.
+Espero que goste do site.
